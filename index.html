@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>أنواع العناصر في HTML</title>
+</head>
+<body>
+    <h1>أنواع العناصر واستخداماتها في HTML</h1>
+
+    <!-- النصوص -->
+    <section>
+        <h2>النصوص</h2>
+        <p>النصوص تُستخدم لتقديم المعلومات المكتوبة داخل صفحات الويب.</p>
+    </section>
+
+    <!-- الصور -->
+    <section>
+        <h2>الصور</h2>
+        <h3>أنواع الصور:</h3>
+        <p>يمكن استخدام الصور في أشكال مختلفة:</p>
+        <ul>
+            <li><strong>صور ثابتة:</strong> مثل الصور العادية.</li>
+            <li><strong>صور متجاوبة:</strong> تتكيف مع عرض الشاشة.</li>
+        </ul>
+        <img src="image-example.jpg" alt="مثال صورة" width="300">
+    </section>
+
+    <!-- الأزرار -->
+    <section>
+        <h2>الأزرار</h2>
+        <button onclick="alert('تم الضغط!')">اضغط هنا</button>
+    </section>
+
+    <!-- الروابط -->
+    <section>
+        <h2>الروابط</h2>
+        <a. href="https://www.example.com" target="_blank" onclick="alert('تم الضغط!')">افتح موقع مثال</a>
+    </section>
+
+    <!-- الفيديوهات -->
+    <section>
+        <h2>الفيديوهات</h2>
+        <video controls width="400">
+            <source src="video-example.mp4" type="video/mp4">
+            الفيديو غير مدعوم!
+        </video>
+    </section>
+
+    <!-- الصوت -->
+    <section>
+        <h2>الصوت</h2>
+        <audio controls>
+            <source src="audio-example.mp3" type="audio/mpeg">
+            الصوت غير مدعوم!
+        </audio>
+    </section>
+
+    <!-- القوائم -->
+    <section>
+        <h2>القوائم</h2>
+        <h3>أنواع القوائم:</h3>
+        <p>هناك ثلاثة أنواع رئيسية للقوائم:</p>
+        <h4>قائمة مرتبة:</h4>
+        <ol>
+            <li>عنصر أول</li>
+            <li>عنصر ثاني</li>
+        </ol>
+        <h4>قائمة غير مرتبة:</h4>
+        <ul>
+            <li>عنصر 1</li>
+            <li>عنصر 2</li>
+        </ul>
+        <h4>قائمة تعريف:</h4>
+        <dl>
+            <dt>HTML</dt>
+            <dd>لغة ترميز النصوص.</dd>
+            <dt>CSS</dt>
+            <dd>لغة تنسيق الصفحات.</dd>
+        </dl>
+    </section>
+
+    <!-- الجداول -->
+    <section>
+        <h2>الجداول</h2>
+        <h3>أنواع الجداول:</h3>
+        <p>الجداول تُستخدم لعرض البيانات بشكل منظم ويمكن تخصيصها بسهولة:</p>
+        <table border="1">
+            <caption>جدول بيانات بسيط</caption>
+            <thead>
+                <tr>
+                    <th>الاسم</th>
+                    <th>العمر</th>
+                    <th>المهنة</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>أحمد</td>
+                    <td>25</td>
+                    <td>مبرمج</td>
+                </tr>
+                <tr>
+                    <td>سارة</td>
+                    <td>30</td>
+                    <td>مصممة</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <!-- القائمة المنسدلة -->
+    <section>
+        <h2>القائمة المنسدلة</h2>
+        <h3>اختر عنصرًا من القائمة:</h3>
+        <form>
+            <label for="choices">القائمة:</label>
+            <select id="choices" name="choices">
+                <option value="option1">الخيار الأول</option>
+                <option value="option2">الخيار الثاني</option>
+                <option value="option3">الخيار الثالث</option>
+            </select>
+            <button type="submit">تأكيد الاختيار</button>
+        </form>
+    </section>
+</body>
+</html>
